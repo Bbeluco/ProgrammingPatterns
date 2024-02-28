@@ -1,0 +1,12 @@
+{
+  "name": "observer",
+  "version": "1.0.0",
+  "description": "Basicamente todo mundo vai ficar observando aquela estrutura, quando ela mudar todos os que estavam observando o componente anteriormente ira ser notificado e tomara alguma acao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

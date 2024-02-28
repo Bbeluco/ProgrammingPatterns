@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var publisherConcrete_1 = require("./classes/publisherConcrete");
+var subscribeConcrete_1 = require("./classes/subscribeConcrete");
+var publisher = new publisherConcrete_1.PublisherConcrete();
+var sub1 = new subscribeConcrete_1.SubscribeConcrete();
+var sub2 = new subscribeConcrete_1.SubscribeConcrete();
+publisher.subscribe(sub1);
+publisher.subscribe(sub1);
+publisher.subscribe(sub2);
+publisher.unsubscribe(sub1);
+publisher.someLogic();
+publisher.subscribe(sub1);
+publisher.someLogic();
